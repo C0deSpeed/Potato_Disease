@@ -5,4 +5,5 @@ streamlit==1.5.1
 datetime
 sklearn
 tensorflow
-PIL
+Image
+ImageOps
