@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image,ImageOps
 import streamlit as st
 
-model = tf.keras.models.load_model('C:\Potato_disease\Models\Version_2')
+model = tf.keras.models.load_model('Model2')
 class_names = ['Early Blight', 'Late Blight', 'Healthy']
 
 def image_processing(img):
